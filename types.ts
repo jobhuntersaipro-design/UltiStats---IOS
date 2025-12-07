@@ -1,3 +1,4 @@
+
 export type TeamSide = 'home' | 'away';
 
 export interface Player {
@@ -14,6 +15,7 @@ export interface Coordinate {
 
 export enum EventType {
   PULL = 'PULL',
+  PICKUP = 'PICKUP', // Added for starting possession
   CATCH = 'CATCH',
   DROP = 'DROP',
   THROWAWAY = 'THROWAWAY',
